@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: CCMaladroitW00;
   font-display: swap;
   src: url("./CCMaladroitW00.woff") format("woff");
@@ -11,7 +11,9 @@
   src: url("./NaughtySquirrel.otf") format("OpenType");
   font-weight: 400;
   font-style: normal;
-}
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -34,7 +36,7 @@ html {
 body {
   color: #000;
   line-height: 1;
-  font-family: CCMaladroitW00;
+  font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
@@ -44,8 +46,11 @@ body {
 }
 button,
 input,
-textarea {
-  font-family: CCMaladroitW00;
+textarea,
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
   font-size: inherit;
   line-height: inherit;
   color: inherit;
@@ -275,7 +280,7 @@ h6 {
 .title span {
   display: inline-block;
   color: #fff;
-  font-family: "Naughty Squirrel Demo";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 900;
   -webkit-transform-origin: left;
@@ -757,7 +762,7 @@ h6 {
   -webkit-transform-origin: left;
   transform-origin: left;
   color: #000;
-  font-family: "Naughty Squirrel Demo";
+  font-family: "Poppins", sans-serif;
   font-weight: 900;
   line-height: normal;
   -webkit-transform: translateX(50vw) scaleX(1.4) scaleY(1);
@@ -899,12 +904,12 @@ h6 {
 }
 .hello-about__header span:nth-child(1) {
   color: #fff;
-  font-family: "Naughty Squirrel Demo";
+  font-family: "Poppins", sans-serif;
   font-weight: 900;
 }
 .hello-about__header span:nth-child(2) {
   color: #fff;
-  font-family: "Naughty Squirrel Demo";
+  font-family: "Poppins", sans-serif;
   font-weight: 900;
   margin-top: -5%;
 }
@@ -1154,7 +1159,7 @@ h6 {
   transform-origin: left;
 }
 .roadmap__item-title {
-  font-family: "Naughty Squirrel Demo";
+  font-family: "Poppins", sans-serif;
   font-weight: 900;
   line-height: normal;
 }
@@ -1205,7 +1210,7 @@ h6 {
 }
 .tokenomics__item span:nth-child(2) {
   color: #000;
-  font-family: "Naughty Squirrel Demo";
+  font-family: "Poppins", sans-serif;
   font-weight: 900;
   line-height: normal;
 }
@@ -1236,7 +1241,7 @@ h6 {
 }
 .tokenomics__ca p:nth-child(2) span {
   color: #000;
-  font-family: "Naughty Squirrel Demo";
+  font-family: "Poppins", sans-serif;
   font-weight: 900;
   line-height: normal;
   word-break: break-all;
